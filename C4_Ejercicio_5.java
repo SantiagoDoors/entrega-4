@@ -12,9 +12,9 @@ public class C4_Ejercicio_5 {
 
     // pedimos datos
 
-        JOptionPane.showInputDialog("ingrese dos numeros y le dire cual es el mayor");
-        String a = JOptionPane.showInputDialog("primer numero");
-        String b = JOptionPane.showInputDialog("segundo numero");
+        JOptionPane.showInputDialog("De dos numeros le dire cual es el mayor. ¬(^_^)¬ [enter para seguir] ");
+        String a = JOptionPane.showInputDialog(" ingrese el primer numero");
+        String b = JOptionPane.showInputDialog("ingrese el segundo numero");
     
     // lo transformo en entero
 
@@ -24,9 +24,9 @@ public class C4_Ejercicio_5 {
     // logica para devoler resultado.
 
         if (uno > dos){
-            JOptionPane.showInputDialog("["+ uno + "] es mayor que [" + dos +"] *v(^o^)v*");
+            JOptionPane.showInputDialog("["+ uno + "] es mayor que [" + dos +"] ¬(^_^)¬");
         } else if (dos > uno){
-            JOptionPane.showInputDialog("["+ dos + "] es mayor que [" + uno +"] *v(^o^)v*");
+            JOptionPane.showInputDialog("["+ dos + "] es mayor que [" + uno +"] ¬(^_^)¬");
         } else {
             JOptionPane.showInputDialog("para que me pones dos numeros iguales? ·(º_º)· ");
         }

@@ -9,19 +9,19 @@ import javax.swing.JOptionPane;
 public class C4_Ejercicio_4{
     public static void main(String[] args) {
     // mensaje de bienvenida
-
-        JOptionPane.showInputDialog("_[Par o Impar]_");
-        String a = JOptionPane.showInputDialog("ingrese un numero y le dire!! muajaaaaaa ja!");
-        
+        JOptionPane.showInputDialog("Averigüe si su numero es divisible por otro sin dejar resto ¬(^_^)¬ -> [Enter para Seguir]");
+        String a = JOptionPane.showInputDialog("Ingrese un dividendo");
+        String b = JOptionPane.showInputDialog("Ingrese un divisor");
     // transformando variables a entero
 
-        int ini = Integer.parseInt(a);
+        int dividendo = Integer.parseInt(a);
+        int divisor = Integer.parseInt(b);
 
-    //logica para saber cual es par o impar.    
+    //logica para saber si el divisor da resto.    
 
-        if (ini %2 == 0) {
-            JOptionPane.showInputDialog("su numero es _[Par]_ ");
+        if (dividendo%divisor == 0 ){
+            JOptionPane.showInputDialog("El Numero "+divisor+" es divisor de "+dividendo+" ¬(^_^)¬");
+            } else {JOptionPane.showInputDialog("El Numero "+dividendo+" no es divisible por "+divisor+" ¬(^_^)¬");
         }
-        JOptionPane.showInputDialog("su numero es _[Impar]_ ");
     }
 }
